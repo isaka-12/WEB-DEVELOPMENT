@@ -22,17 +22,17 @@ Welcome to my Web Development Projects repository. This collection showcases var
 ## Projects
 
 ### Advertising My Graphics
-This project focuses on creating and displaying various graphic advertisements. It showcases my ability to design visually appealing graphics and integrate them into web pages.
+This project focuses on creating and displaying various graphic advertisements. It showcases my ability to design visually appealing graphics and integrate them into web pages. [See project](https://github.com/isaka-12/WEB-DEVELOPMENT/tree/main/ADVERTISING%20MY%20GRAPHICS)
 
 ### Final Portfolio
-The Final Portfolio project is a culmination of my learning journey in web development. It includes all my completed projects, demonstrating my growth and proficiency in different web technologies and design principles.
+The Final Portfolio project is a culmination of my learning journey in web development. It includes all my completed projects, demonstrating my growth and proficiency in different web technologies and design principles. [See project](https://github.com/isaka-12/WEB-DEVELOPMENT/tree/main/FINAL%20PORTOFOLIO)
 
 ## Technologies Used
 
 - HTML
 - CSS
 - JavaScript
-
+  
 ## Installation
 
 To run these projects locally, follow these steps:
@@ -75,4 +75,3 @@ If you have any questions or feedback, feel free to contact me:
 - GitHub: [github.com/isaka-12](https://github.com/isaka-12)
 
 ---
-
