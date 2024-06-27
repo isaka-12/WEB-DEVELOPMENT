@@ -1,0 +1,328 @@
+/* Reset and General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    background-color: rgb(174, 218, 230);
+    color: #972f2f;
+}
+
+h1, h2 {
+    margin: 0;
+    padding: 0;
+    font-family: "Anton", cursive;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Spacers */
+.spacer {
+    display: block;
+    clear: both;
+    height: 20px;
+}
+
+.spacer.v40 {
+    height: 40px;
+}
+
+.spacer.v80 {
+    height: 80px;
+}
+
+/* Wrapper */
+.wrap {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header */
+#topMenu {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 0 20px;
+}
+
+#topLinks ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#topLinks li {
+    margin-left: 20px;
+}
+
+#topLinks li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+#topLinks li a:hover {
+    color: #f46036;
+    font-weight: bold;
+}
+
+.logo {
+    font-size: 24px;
+    color: #333;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.logo:hover {
+    color: #4392F1;
+}
+
+/* Banner */
+#banner {
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    text-align: center;
+    padding: 10px 0;
+    color: #333;
+}
+
+#banner .logo {
+    font-size: 60px;
+    margin: 20px 0;
+}
+
+#banner #action a {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #4392F1;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+#banner #action a:hover {
+    background-color: #f46036;
+    padding: 15px 40px;
+}
+
+/* Feature Sections */
+.feature {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.feature .leftcolumn,
+.feature .rightcolumn {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+.feature .subHeading {
+    font-size: 24px;
+    font-style: oblique;
+}
+
+.feature .text {
+    padding-top: 20px;
+    min-height: 200px;
+}
+
+.feature .text a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4392F1;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+.feature .text a:hover {
+    background-color: #f46036;
+    padding: 10px 30px;
+}
+
+.feature hr {
+    background-color: #333;
+    height: 3px;
+    border: 0;
+    width: 180px;
+}
+
+.featureImage img,
+.middleImage img {
+    max-width: 90%; /* Reduced the maximum width */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.middleImage {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.slideshow img {
+    display: none;
+}
+
+.slideshow img:first-child {
+    display: block;
+}
+
+/* Scroll to Top Button */
+#scrollToTop {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: #f46036;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    opacity: 0.7;
+    transition: all 0.3s ease;
+    z-index: 1000;
+}
+
+#scrollToTop:hover {
+    opacity: 1;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Subscription Section */
+#subscribe {
+    background-color: #4392F1;
+    text-align: center;
+    padding: 40px 20px;
+    color: #fff;
+}
+
+#subscribe h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+#subscribe input[type=text],
+#subscribe input[type=submit] {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    margin-right: 10px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+#subscribe input[type=text]:focus,
+#subscribe input[type=submit]:focus {
+    outline: none;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#subscribe input[type=submit] {
+    background-color: #345995;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#subscribe input[type=submit]:hover {
+    background-color: #f46036;
+}
+
+/* Footer */
+#copyright {
+    text-align: center;
+    background-color: #345995;
+    color: #fff;
+    padding: 20px 0;
+}
+
+#copyright .logo {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    /* Adjustments for smaller screens */
+    .feature {
+        flex-direction: column;
+    }
+
+    .feature .leftcolumn,
+    .feature .rightcolumn {
+        width: 100%;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    /* Dark mode styles */
+    body {
+        background-color: #61696d;
+        color: #e0e0e0;
+    }
+
+    #topMenu {
+        background-color: #686363;
+        color: #e0e0e0;
+    }
+
+    #topLinks li a,
+    .logo {
+        color: #e0e0e0;
+    }
+
+    #banner {
+        background-color: #534e4e;
+        color: #e0e0e0;
+    }
+
+    .feature .subHeading {
+        color: #ccc;
+    }
+
+    #subscribe {
+        background-color: #2c2c2c;
+        color: #e0e0e0;
+    }
+
+    #subscribe input[type=text],
+    #subscribe input[type=submit] {
+        background-color: rgba(255, 255, 255, 0.1);
+        color: #e0e0e0;
+    }
+
+    #copyright {
+        background-color: #080000;
+        color: #ccc;
+    }
+}
