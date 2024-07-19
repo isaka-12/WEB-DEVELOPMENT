@@ -30,7 +30,7 @@ The Final Portfolio project is a culmination of my learning journey in web devel
 
 ### Simple JS Calculator
 This is a simple calculator running on web browser made by html, CSS and Javascript
-[See project](https://github.com/isaka-12/WEB-DEVELOPMENT/tree/main/FINAL%20PORTOFOLIO)
+[See project](CalculatorJS)
 
 ## Technologies Used
 
