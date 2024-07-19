@@ -12,7 +12,7 @@ Welcome to my Web Development Projects repository. This collection showcases var
 - [Projects](#projects)
   - [Advertising My Graphics](#advertising-my-graphics)
   - [Final Portfolio](#final-portfolio)
-  - [Simple JS Calculator](#CalculatorJs)
+  - [Simple JS Calculator](#simple-js-calculator)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
