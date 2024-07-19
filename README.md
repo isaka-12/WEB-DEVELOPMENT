@@ -12,6 +12,7 @@ Welcome to my Web Development Projects repository. This collection showcases var
 - [Projects](#projects)
   - [Advertising My Graphics](#advertising-my-graphics)
   - [Final Portfolio](#final-portfolio)
+  - [Simple JS Calculator](#CalculatorJs)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -26,6 +27,10 @@ This project focuses on creating and displaying various graphic advertisements. 
 
 ### Final Portfolio
 The Final Portfolio project is a culmination of my learning journey in web development. It includes all my completed projects, demonstrating my growth and proficiency in different web technologies and design principles. [See project](https://github.com/isaka-12/WEB-DEVELOPMENT/tree/main/FINAL%20PORTOFOLIO)
+
+### Simple JS Calculator
+This is a simple calculator running on web browser made by html, CSS and Javascript
+[See project](https://github.com/isaka-12/WEB-DEVELOPMENT/tree/main/FINAL%20PORTOFOLIO)
 
 ## Technologies Used
 
