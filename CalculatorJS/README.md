@@ -1,2 +1,2 @@
 ---
-#My Simple JS calculator
+# My Simple JS calculator
