@@ -1,1 +1,2 @@
-**My Simple Js Calculator**
+
+#My Simple JS calculator
