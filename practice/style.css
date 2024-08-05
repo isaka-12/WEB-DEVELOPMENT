@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+}
+    
+body{
+    padding: 0;
+    margin: 10px;
+    overflow-x: hidden;
+    max-width: 100%;
+}
+#header{
+   background-color:rgb(255, 255, 255);
+   padding: 0 4px;
+   display: flex;
+   justify-content: space-between;
+   height: 20vh;
+   align-items: center;
+   border-bottom: 1px solid rgb(96, 95, 95);
+   margin-bottom: 0;
+   padding-bottom: 0;
+
+   h2{
+        color: brown;
+   }
+}
+.nav-items{
+    display: flex;
+    
+    justify-content: space-between;
+}
+.nav-items li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.nav-items li a:hover{
+    text-decoration: underline;
+}
+li{
+    margin: 40px;
+    list-style-type: none;
+}
+.button{
+    padding: 8px 26px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(122, 66, 9);
+    color: antiquewhite;
+    font-weight: bold;
+    cursor: pointer;
+}
+.secondary{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 1px solid black;
+}
+
+.Wrapper{
+    display: flex;
+    width: 100vw;
+
+    .side-bar{
+        background-color: rgb(122, 66, 9);
+        width: 25vw;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        color: aliceblue;
+        height: 100vh;
+        border-radius: 20px;
+
+        img{
+            padding: 8px;
+            margin-top: 10px;
+            margin-bottom: -10px;
+            border-radius: 95%;
+            background-color: rgb(15, 150, 195);
+            border: 4px solid aliceblue;
+        }
+    }
+    .main-content{
+        background-color: aliceblue;
+        width: 70vw;
+        margin: 10px 40px 10px 10px;
+        border-radius: 20px;
+        text-align: center;
+        color: brown;
+
+        h1{
+            margin-bottom: 0;
+        }
+        hr{
+            width: 20%;
+            height: 4px;
+            border: none;
+            background-color: black;
+            outline: none;
+            font-weight: bold;
+            padding: 0;
+           
+        }
+
+        .designs{
+            display: flex;
+            justify-content: space-around;
+
+            img{
+                width: 30%;
+                border-radius: 10px;
+            }
+            
+        }
+    }
+}
+.footer{
+    background-color: rgb(122, 66, 9) ;
+    width: 100vw;
+    height: 20vh;
+    margin-top: 10px;
+
+    ul{
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+
+        li{
+            list-style: none;
+
+            a{
+                text-decoration: none;
+
+                img{
+                    width: 40px;
+                    height: 40px;
+                }
+            }
+        }
+    }
+}
