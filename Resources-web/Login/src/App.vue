@@ -8,7 +8,7 @@ import { ref } from 'vue'
  <div class="body">
   <div class="card">
     <div class="header">
-      <h1>Welcome</h1>
+      <h1>Welcome Back</h1>
     </div>
     <div class="form-group">
       <label for="username">Username</label>
@@ -16,15 +16,15 @@ import { ref } from 'vue'
 
       <label for="password">Password</label>
       <input type="password" id="password" name="password" placeholder="Password">
-
-      <label for="email">Email</label>
-      <input type="email" id="email" name="email" placeholder="Email">
-
       
     </div>
     <div class="btn">
         <button>Sign in</button>
-      </div>
+    </div>
+    <p>Or</p>
+    <button><i class="fa-brands fa-google"></i> Continue with google</button>
+    <button><i class="fa-brands fa-github"></i> Continue with github</button>
+
   </div>
  </div>
 
@@ -42,21 +42,20 @@ import { ref } from 'vue'
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100vw;
-  height: 100vh;
-  color: black;
-  background-color: #ffffff;
-  padding: 0%;
-  margin: 0%;
+  width: 100%;
+  height: 100%;
+  
+  padding: 0;
+  margin: 0;
 }
 .card {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 25%;
-  height: 70%;
-  background: linear-gradient(225deg, #00ffdd, #2b424a, #202b30);
+  width: 30%;
+  height: 90%;
+  background: linear-gradient(225deg, #00ffdd, #2b424a, #202b30, #202b30);
   border-radius: 10px;
   padding: 20px;
   margin: 20px;
@@ -71,7 +70,7 @@ import { ref } from 'vue'
   
   margin: 20px 20px 0 20px;
   color: rgb(255, 255, 255);
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: bold;
 
 }
@@ -99,6 +98,7 @@ import { ref } from 'vue'
     background: transparent;
     color: rgb(255, 255, 255);
     border: 2px solid #ccc;
+    border-radius: 10px;
     outline: none;
 
     ::focus{
@@ -113,18 +113,38 @@ import { ref } from 'vue'
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 35%;
   height: 100%;
-  margin: 20px;
+  border-radius: 10px;
+  /* margin: 20px; */
   :hover {
       background:linear-gradient(45deg, #00ffdd, #2b424a, #202b30);
-      border: 2px solid #279889;
+      border: 2px solid #ffffff;
       color: #ffffff;
     }
   button {
     padding: 10px 20px;
-    margin: 10px;
+    margin: 0;
+    margin-top: 10px;
+   
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background:linear-gradient(225deg, #00ffdd, #2b424a, #202b30);
+    border: 2px solid #279889;
+     
+    border-radius: 10px;
+    cursor: pointer;
+
+   
+  }
+}
+button {
+    padding: 10px 20px;
+    margin: 0;
     margin-top: 0;
+    width: 90%;
    
     margin-bottom: 20px;
     font-size: 1.2rem;
@@ -132,13 +152,27 @@ import { ref } from 'vue'
     color: rgb(255, 255, 255);
     background:linear-gradient(225deg, #00ffdd, #2b424a, #202b30);
     border: 2px solid #279889;
-     
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
 
+    i{
+      margin-right: 20px;
+      font-size: 1.5rem;
+      
+    }
    
-  }
 }
-
+button:hover {
+  background:linear-gradient(45deg, #00ffdd, #2b424a, #202b30);
+  border: 2px solid #ffffff;
+  color: #ffffff;
+}
+p{
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+  padding: 10px;
+}
   
 </style>
