@@ -21,6 +21,15 @@ import { ref } from 'vue'
     <div class="btn">
         <button>Sign in</button>
     </div>
+ 
+    <div class="file-upload" id="upload">
+      <input type="file" id="fileInput">
+      <label for="fileInput">
+         <p>Choose file</p> <i class="fa-solid fa-file-arrow-up"></i>
+      </label>
+    </div>
+
+    
     <p>Or</p>
     <button><i class="fa-brands fa-google"></i> Continue with google</button>
     <button><i class="fa-brands fa-github"></i> Continue with github</button>
@@ -48,6 +57,48 @@ import { ref } from 'vue'
   padding: 0;
   margin: 0;
 }
+/* Hide the actual file input */
+.file-upload input[type="file"] {
+    display: none;
+}
+.file-upload {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;  
+    :hover{
+      background:linear-gradient(45deg, #00ffdd, #2b424a, #202b30);
+      border: 2px solid #ffffff;
+      color: #ffffff;
+    }
+}
+ 
+/* Style the label as the custom file upload button */
+.file-upload label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+    
+    font-weight: bold;
+    background:linear-gradient(225deg, #00ffdd, #2b424a, #202b30);
+    border: 2px solid #279889;
+    width: 100%;
+    border-radius: 10px;
+    i{
+      margin-right: 20px;
+      font-size: 2rem;
+    }
+    :hover{
+      background: transparent;
+      border: none;
+    }
+}
+
+
 .card {
   display: flex;
   flex-direction: column;
